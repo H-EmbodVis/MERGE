@@ -1,0 +1,9 @@
+dataset:
+  train:
+    name: hypersim
+    disp_name: hypersim_train
+    dir: hypersim/train
+    filenames: data_split/hypersim/filename_list_train_filtered.txt
+    resize_to_hw:
+      - 480
+      - 640
