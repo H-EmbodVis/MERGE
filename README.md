@@ -11,7 +11,7 @@
 
   ($\dagger$) Corresponding author.
 
-[![Paper](https://img.shields.io/badge/Arxiv-PDF-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/)
+[![Paper](https://img.shields.io/badge/Arxiv-2510.23574-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.23574)
 [![Website](https://img.shields.io/badge/Homepage-project-orange.svg?logo=googlehome)](https://h-embodvis.github.io/MERGE)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/h-embodvis/MERGE/main/LICENSE)
 
