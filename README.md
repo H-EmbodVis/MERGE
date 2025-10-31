@@ -20,12 +20,10 @@
 ![MERGE_teasor.](asset/images/teasor.png)
 We present MERGE, a simple unified diffusion model for image generation and depth estimation. Its core lies in leveraging streamlined converters and rich visual prior stored in generative image models. Our model, derived from fixed generative image models and fine-tuned pluggable converters with synthetic data, expands powerful zero-shot depth estimation capability.
 
-
 ---
 ## 📢 **News**
 - **[21/Oct/2025]** The training and inference code is now available!
 - **[18/Sep/2025]** MERGE is accepted to **NeurIPS 2025**! 🥳🥳🥳
-
 
 ---
 ## 🛠️ Setup
@@ -88,12 +86,25 @@ python inference_merge_base_depth.py --pretrained_model_path PATH/PixArt-XL-2-51
 python inference_merge_large_depth.py --pretrained_model_path PATH/FLUX.1-dev --model_weights PATH/merge_large_depth --image_path ./data/demo_1.png
 ```
 
-## Choose your model
+### Choose your model
 Below are the released models and their corresponding configurations:
 |CHECKPOINT_DIR|PRETRAINED_MODEL|TASK_NAME|
 |:--:|:--:|:--:|
 | [`merge-base-depth-v1`](https://huggingface.co/hongk1998/merge-base-depth-v1) | PixArt-XL-2-512x512 | depth |
 | [`merge-large-depth-v1`](https://huggingface.co/hongk1998/merge-large-depth-v1) | FLUX.1-dev | depth |
+
+---
+## ⚖️ Main Results
+### **Zero-shot Depth Estimation Results**
+<div align="center">
+    <img src="./asset/images/depth_results.png" width = "888"  align=center />
+</div>
+
+### **Zero-shot Normal Estimation Results**
+<div align="center">
+    <img src="./asset/images/normal_results.png" width = "888"  align=center />
+</div>
+
 
 ---
 
